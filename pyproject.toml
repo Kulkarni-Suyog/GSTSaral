@@ -1,15 +1,12 @@
-fastapi>=0.115.0
-uvicorn>=0.30.0
-pydantic>=2.7.0
-python-dotenv>=1.0.1
-requests>=2.32.0
-streamlit>=1.39.0
-scikit-learn>=1.5.0
-numpy>=1.26.0
-langgraph>=0.2.60
-langchain-core>=0.3.25
-google-genai>=1.0.0
-groq>=0.11.0
-pytest>=8.3.0
-httpx>=0.27.0
-ruff>=0.7.0
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [".venv", "__pycache__", "day1", "day2", "day3", "day4", "day5", "day6", "day7", "day8", "day9", "day10", "day12", "day13"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
