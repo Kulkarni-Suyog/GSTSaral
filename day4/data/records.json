@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "category": "Personal Care",
+    "item_or_topic": "Toilet soap bars",
+    "old_rule": "18% GST",
+    "new_rule": "5% GST",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 2,
+    "category": "Personal Care",
+    "item_or_topic": "Hair oil, shampoos, toothpaste, and toothbrushes",
+    "old_rule": "18% GST",
+    "new_rule": "5% GST",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 3,
+    "category": "Dairy & Bakery",
+    "item_or_topic": "Ultra-High Temperature (UHT) milk",
+    "old_rule": "5% GST",
+    "new_rule": "Nil (0% GST)",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 4,
+    "category": "Dairy & Bakery",
+    "item_or_topic": "Pre-packaged and labelled chena or paneer",
+    "old_rule": "5% GST",
+    "new_rule": "Nil (0% GST)",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 5,
+    "category": "Dairy & Bakery",
+    "item_or_topic": "Butter, ghee, and dairy spreads",
+    "old_rule": "12% GST",
+    "new_rule": "5% GST",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 6,
+    "category": "Dairy & Bakery",
+    "item_or_topic": "Indian breads (chapati, roti, paratha, parotta)",
+    "old_rule": "5% GST",
+    "new_rule": "Nil (0% GST)",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 7,
+    "category": "Stationery",
+    "item_or_topic": "Exercise books, graph books, and notebooks",
+    "old_rule": "12% GST",
+    "new_rule": "Nil (0% GST)",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 8,
+    "category": "Stationery",
+    "item_or_topic": "Pencils, crayons, pastels, erasers, and sharpeners",
+    "old_rule": "12% GST",
+    "new_rule": "Nil (0% GST)",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 9,
+    "category": "Household & Mobility",
+    "item_or_topic": "Bicycles and bicycle parts",
+    "old_rule": "12% GST",
+    "new_rule": "5% GST",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  },
+  {
+    "id": 10,
+    "category": "Packaged Food",
+    "item_or_topic": "Packaged namkeens, bhujia, pasta, instant noodles, sauces, jams, and chocolates",
+    "old_rule": "12% / 18% GST",
+    "new_rule": "5% GST",
+    "effective_from": "2025-09-22",
+    "document": "56th GST Council Meeting Press Release (PIB PRID 2163555)",
+    "source_url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2163555"
+  }
+]

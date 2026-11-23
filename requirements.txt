@@ -1,0 +1,62 @@
+# Day 11 — Automated Test Suite (`tests/`), Linting (`ruff`), & Docker Deployment
+
+## Project Structure
+```text
+day11/
+├── README.md
+├── pyproject.toml        # Ruff & Pytest configuration
+├── requirements.txt
+├── Dockerfile
+├── .dockerignore
+├── docker-compose.yml    # Starts both FastAPI API (:8000) and Streamlit UI (:8501)
+├── app/
+│   ├── __init__.py
+│   ├── chunking.py
+│   ├── rag.py
+│   ├── tools.py
+│   ├── agent_loop.py
+│   ├── graph.py
+│   └── main.py
+├── ui/
+│   └── app.py
+├── data/
+│   └── records.json
+└── tests/
+    ├── __init__.py
+    └── test_gstsaral.py  # 10 pytest unit & integration tests
+```
+
+## Run Tests & Linter (`pytest` + `ruff`)
+```powershell
+pip install -r requirements.txt
+pytest -v
+ruff check .
+```
+The test suite (`tests/test_gstsaral.py`) covers:
+1. `data/records.json` schema and record count validation (`20` records).
+2. `build_chunks` metadata preservation (`source`, `page`, `title`, `topic_key`, `rule_year`).
+3. Hybrid lexical + dense retrieval accuracy (`pre-packaged paneer -> Nil (0% GST)`).
+4. Signature **Old vs Current** warning banner + dual citations when retrieving `2017/18` FAQs.
+5. `GET /health` FastAPI endpoint.
+6. `POST /ask` FastAPI endpoint with an injected **FakeLLM** verifying prompt grounding and citations.
+7. `POST /ask` out-of-scope abstention (`"I don't know..."`).
+8. `gst_invoice_calculator` intra-state Maharashtra `CGST + SGST` split and GST-inclusive back-calculation.
+9. `gst_invoice_calculator` inter-state `IGST` calculation.
+10. Multi-step `HandWrittenGSTAgent` chaining `rag_search` -> `gst_invoice_calculator`.
+
+## Run with Docker
+Start both the **GSTSaral FastAPI backend** (`http://localhost:8000`) and the **Streamlit Chat UI** (`http://localhost:8501`) with a single command:
+
+```bash
+docker compose up --build
+```
+
+- **Streamlit UI:** `http://localhost:8501`
+- **FastAPI Docs (`/docs`):** `http://localhost:8000/docs`
+- **Health Check (`/health`):** `http://localhost:8000/health`
+
+To run in detached mode or stop containers:
+```bash
+docker compose up --build -d
+docker compose down
+```

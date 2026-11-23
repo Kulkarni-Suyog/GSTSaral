@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: gstsaral-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DEPLOY_MODE
+        value: api
+      - key: USE_OFFLINE_EMBED
+        value: "1"
+      - key: LLM_PROVIDER
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false

@@ -1,0 +1,272 @@
+[
+  {
+    "config": {
+      "name": "Config A (Small Chunks / Narrow Top-K)",
+      "chunk_size": 140,
+      "overlap": 25,
+      "top_k": 1
+    },
+    "total_chunks": 36,
+    "total_questions": 15,
+    "passed_total": 7,
+    "overall_score": 46.7,
+    "retrieval_recall": 92.3,
+    "answer_accuracy": 38.5,
+    "citation_rate": 100.0,
+    "abstention_accuracy": 100.0,
+    "q6_idk_passed": true,
+    "details": [
+      {
+        "id": "Q1",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_001_c1"
+      },
+      {
+        "id": "Q2",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_003_c1"
+      },
+      {
+        "id": "Q3",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_007_c1"
+      },
+      {
+        "id": "Q4",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_010_c1"
+      },
+      {
+        "id": "Q5",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_005_c1"
+      },
+      {
+        "id": "Q6",
+        "passed": true,
+        "abstained": true,
+        "answer": "I don't know. The available GSTSaral documents do not contain verified information to answer this question."
+      },
+      {
+        "id": "Q7",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_002_c1"
+      },
+      {
+        "id": "Q8",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_006_c1"
+      },
+      {
+        "id": "Q9",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_013_c1"
+      },
+      {
+        "id": "Q10",
+        "passed": false,
+        "hit_chunk": false,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_009_c1"
+      },
+      {
+        "id": "Q11",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_009_c1"
+      },
+      {
+        "id": "Q12",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_011_c1"
+      },
+      {
+        "id": "Q13",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_014_c2"
+      },
+      {
+        "id": "Q14",
+        "passed": false,
+        "hit_chunk": true,
+        "hit_keywords": false,
+        "has_citation": true,
+        "top_chunk": "rec_015_c1"
+      },
+      {
+        "id": "Q15",
+        "passed": true,
+        "abstained": true,
+        "answer": "I don't know. The available GSTSaral documents do not contain verified information to answer this question."
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "Config B (Full-Record Chunks / Wider Top-K)",
+      "chunk_size": 350,
+      "overlap": 50,
+      "top_k": 3
+    },
+    "total_chunks": 17,
+    "total_questions": 15,
+    "passed_total": 15,
+    "overall_score": 100.0,
+    "retrieval_recall": 100.0,
+    "answer_accuracy": 100.0,
+    "citation_rate": 100.0,
+    "abstention_accuracy": 100.0,
+    "q6_idk_passed": true,
+    "details": [
+      {
+        "id": "Q1",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_001"
+      },
+      {
+        "id": "Q2",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_003"
+      },
+      {
+        "id": "Q3",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_007"
+      },
+      {
+        "id": "Q4",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_010"
+      },
+      {
+        "id": "Q5",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_005"
+      },
+      {
+        "id": "Q6",
+        "passed": true,
+        "abstained": true,
+        "answer": "I don't know. The available GSTSaral documents do not contain verified information to answer this question."
+      },
+      {
+        "id": "Q7",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_002"
+      },
+      {
+        "id": "Q8",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_006"
+      },
+      {
+        "id": "Q9",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_013"
+      },
+      {
+        "id": "Q10",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_008"
+      },
+      {
+        "id": "Q11",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_009"
+      },
+      {
+        "id": "Q12",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_011"
+      },
+      {
+        "id": "Q13",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_014_c1"
+      },
+      {
+        "id": "Q14",
+        "passed": true,
+        "hit_chunk": true,
+        "hit_keywords": true,
+        "has_citation": true,
+        "top_chunk": "rec_015_c1"
+      },
+      {
+        "id": "Q15",
+        "passed": true,
+        "abstained": true,
+        "answer": "I don't know. The available GSTSaral documents do not contain verified information to answer this question."
+      }
+    ]
+  }
+]

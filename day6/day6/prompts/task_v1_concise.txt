@@ -1,0 +1,15 @@
+Task: Answer the user's GST question directly and concisely using ONLY the retrieved GST records below.
+
+Retrieved Context:
+{context}
+
+User Question:
+{question}
+
+Instructions (Prompt v1 - Concise Lookup):
+- Give a 1-2 sentence direct answer stating the exact old rate, new rate, and effective date.
+- If no matching record exists in Retrieved Context, state clearly that the record is not available in GSTSaral's current dataset.
+- Output ONLY a JSON object with keys:
+  - "answer": string
+  - "confidence": "high" | "medium" | "low"
+  - "follow_up": a short suggested next question for the user

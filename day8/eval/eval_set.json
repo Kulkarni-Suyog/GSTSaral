@@ -1,0 +1,150 @@
+[
+  {
+    "id": "Q1",
+    "question": "What is the new GST rate on toilet soap bars after the 56th GST Council meeting?",
+    "expected_chunk_id": "rec_001",
+    "expected_answer_keywords": [
+      "5% GST",
+      "18% GST",
+      "2025-09-22"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q2",
+    "question": "Did the GST rate on Ultra-High Temperature (UHT) milk and packaged paneer drop to Nil (0%)?",
+    "expected_chunk_id": "rec_003",
+    "expected_answer_keywords": [
+      "Nil (0% GST)",
+      "UHT",
+      "2025-09-22"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q3",
+    "question": "How much GST applies to school notebooks, exercise books, and pencils now?",
+    "expected_chunk_id": "rec_007",
+    "expected_answer_keywords": [
+      "Nil (0% GST)",
+      "12% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q4",
+    "question": "What changed in the GST slab for bicycles and bicycle parts, and from what date?",
+    "expected_chunk_id": "rec_010",
+    "expected_answer_keywords": [
+      "5% GST",
+      "12% GST",
+      "2025-09-22"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q5",
+    "question": "What is the updated GST rate on butter, ghee, and packaged namkeens?",
+    "expected_chunk_id": "rec_005",
+    "expected_answer_keywords": [
+      "5% GST",
+      "12% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q6",
+    "question": "What is the exact GST late fee penalty and interest calculation for filing GSTR-9C three months late in FY 2025-26?",
+    "expected_chunk_id": null,
+    "expected_answer_keywords": [
+      "I don't know"
+    ],
+    "should_abstain": true
+  },
+  {
+    "id": "Q7",
+    "question": "Are hair oil and shampoos taxed at 5% or 18% GST from September 22, 2025?",
+    "expected_chunk_id": "rec_002",
+    "expected_answer_keywords": [
+      "5% GST",
+      "18% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q8",
+    "question": "Do Indian breads like packaged chapati, roti, and paratha attract any GST now?",
+    "expected_chunk_id": "rec_006",
+    "expected_answer_keywords": [
+      "Nil (0% GST)",
+      "5% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q9",
+    "question": "What was the old GST rate versus the new GST rate on chocolates and cornflakes?",
+    "expected_chunk_id": "rec_013",
+    "expected_answer_keywords": [
+      "18% GST",
+      "5% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q10",
+    "question": "Which everyday stationery items moved from 12% GST down to 0% (Nil) GST?",
+    "expected_chunk_id": "rec_008",
+    "expected_answer_keywords": [
+      "Nil (0% GST)",
+      "12% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q11",
+    "question": "What is the revised GST rate on geometry boxes and colour boxes?",
+    "expected_chunk_id": "rec_009",
+    "expected_answer_keywords": [
+      "5% GST",
+      "12% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q12",
+    "question": "What is the updated GST rate on tableware, kitchenware, and household articles?",
+    "expected_chunk_id": "rec_011",
+    "expected_answer_keywords": [
+      "5% GST"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q13",
+    "question": "What is the GST registration aggregate turnover threshold for exclusive supply of goods in normal states?",
+    "expected_chunk_id": "rec_014",
+    "expected_answer_keywords": [
+      "Rs. 40 Lakhs"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q14",
+    "question": "What is the annual turnover limit for small taxpayers under the GST Composition Levy scheme?",
+    "expected_chunk_id": "rec_015",
+    "expected_answer_keywords": [
+      "Rs. 1.5 Crore"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q15",
+    "question": "What is the reverse charge mechanism (RCM) tax rate on international ocean freight imports in 2026?",
+    "expected_chunk_id": null,
+    "expected_answer_keywords": [
+      "I don't know"
+    ],
+    "should_abstain": true
+  }
+]

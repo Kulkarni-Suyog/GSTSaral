@@ -1,0 +1,25 @@
+# Secrets — NEVER commit real .env files!
+.env
+.env.*
+!.env.example
+
+# Virtual environments & Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+
+
+Set-Content -Path ".gitignore" -Value @"
+.venv/
+__pycache__/
+*.py[cod]
+.env
+**/.env
+.env.*
+.pytest_cache/
+.ruff_cache/
+chroma_db/
+*.zip
+__init__ (1).py
+download
+"@
