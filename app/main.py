@@ -48,6 +48,15 @@ class FeedbackRequest(BaseModel):
     comment: str = Field(default="")
 
 
+@app.get("/")
+def root() -> Dict[str, Any]:
+    return {
+        "service": "GSTSaral",
+        "status": "live",
+        "endpoints": ["/health", "/ask", "/agent", "/feedback", "/docs"],
+    }
+
+
 @app.get("/health")
 def health() -> Dict[str, Any]:
     rag = get_rag()
